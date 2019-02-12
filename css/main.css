@@ -178,6 +178,11 @@ header{
 .row{
 	text-align: center;
 }
+.row p{
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+}
 .row .box{
 	display: inline-block;
 	background: #fff;
