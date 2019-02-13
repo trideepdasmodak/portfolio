@@ -177,6 +177,7 @@ header{
 	text-align: center;
 }
 .row p{
+	padding-top: 20px;
 	text-align: center;
 	color: #fff;
 	font-size: 24px;
