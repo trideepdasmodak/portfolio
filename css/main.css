@@ -38,13 +38,23 @@ header{
 	overflow: hidden;
 }
 .phome{
-	padding-top: 0px;
+	padding-top: 0;
 	padding-bottom: 0;
 	padding-left: 20%;
 	padding-right: 20%;
 	width: 100%;
 	height: 100%;
 	text-align: center;
+}
+.phome a{
+	padding-bottom: 0;
+	text-decoration: none;
+	background-color: white; 
+	color: #85A5CC;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px auto;
+	border : 1px solid #85A5CC;
 }
 .phome .pabout{
 	text-align: center;
