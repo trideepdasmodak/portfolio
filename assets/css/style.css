@@ -709,8 +709,24 @@ ul.list-check li::before {
     background-color: #fff;
     left: 20px
 }
-
 .timeline>li .posted-date .month {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    display: block;
+    color: #2c3e50;
+    top: 0;
+    float: left
+}
+
+.timeline>li .posted-date-present {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    left: 20px
+}
+
+.timeline>li .posted-date-present .month {
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -763,6 +779,11 @@ ul.list-check li::before {
         min-height: 100px
     }
     .timeline>li .posted-date {
+        position: absolute;
+        text-align: center;
+        background-color: #fff
+    }
+    .timeline>li .posted-date-present {
         position: absolute;
         text-align: center;
         background-color: #fff
@@ -868,6 +889,15 @@ ul.list-check li::before {
         margin-top: 28px
     }
     .timeline>li .posted-date .month {
+        float: none
+    }
+    .timeline>li .posted-date-present {
+        left: 50%;
+        width: 120px;
+        margin-left: -50px;
+        margin-top: 28px
+    }
+    .timeline>li .posted-date-present .month {
         float: none
     }
 }
